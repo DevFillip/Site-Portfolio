@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing:border-box;
+}
+
+.topnav{
+    display: flex;
+    background-color: #333;
+}
+
+.topnav a{
+    cursor:pointer;
+
+}
+.topnav a:hover{
+    background-color: rgb(255, 49, 49);
+}
+.topnav p{
+    font-size: 17px;
+    padding: 10px 7px;
+    color: white;
+    font-weight: 400;
+}
+
+.divulgacao{
+    background-color: rgba(238, 238, 238, 0.901);
+    ;
+    width: 100%;
+
+}
+
+.divulgacao h1{
+    font-size: 45px;
+    padding: 50px 170px 0px;
+    
+    
+}
+
+.divulgacao a{
+    display: inline-block;
+    cursor:pointer;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.divulgacao p{
+    font-size: 14px;
+    padding: 6px 6px;
+    
+}
+
+
+.divulgacao a:nth-of-type(3){
+    background-color: blue;
+    color: white;
+}
+
+.divulgacao a:nth-of-type(2){
+    background-color: rgb(255, 32, 32);
+    color: white;
+}
+
+.manipular-melhor{
+    margin-left: 214px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    border-radius: 15px;
+}
+
+
+.foto-perfil img{
+    width: 30%;
+    border-radius: 50%;
+    margin-left: 60%;
+    margin-top: 29px;
+}
+
+.sobre-mim{
+    display: flex;
+    width: 100%;
+    background-color: red;
+    
+}
+.sobre-mim p{
+    width: 100%;
+    padding: 80px;
+    color: white;
+}
