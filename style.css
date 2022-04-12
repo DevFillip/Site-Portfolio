@@ -153,7 +153,8 @@
 .h1-conhecimentos{
     text-align: center;
     padding: 20px;
-    background-color: rgb(147, 147, 147);
+    color: white;
+    background-color: rgb(43, 124, 255);
     
 }
 
@@ -163,7 +164,7 @@
 .conhecimentos-container{
     display: flex;
     justify-content: center;
-    background-color: rgb(147, 147, 147);
+    background-color: rgb(43, 124, 255);
     height: 450px;
 }
 
@@ -171,5 +172,49 @@
     margin: 0px 0;
     width: 1100px;
     height: 400px;
-    background-color: #333;
+    background-color: rgb(45, 171, 255);
+    display: flex;
+    justify-content: center;
+    
 }
+
+.icons-conhecimento{
+    width: 130px;
+    height:130px;
+    background-color: rgba(255, 255, 255, 0.124);
+    margin: 1%;
+    margin-top: 140px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+#css img{
+    max-width: 148px;
+    margin: -8.5px;
+}
+
+#js img{
+    max-width: 160px;
+    margin: -15px;
+}
+
+
+.icons-conhecimento img{
+    max-width: 130px;
+    padding: 5px 5px;
+}
+
+.hide{
+    background-color: #333;
+    text-align: center;
+    width: 200px;
+    display: none;
+}
+
+.hide p{
+    padding: 15px 15px;
+    text-align: justify;
+}
+
+
