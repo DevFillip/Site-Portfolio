@@ -1,21 +1,28 @@
 *{
     margin:0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing:border-box;
 }
 
 .topnav{
     display: flex;
-    background-color: rgb(0, 51, 255);
+    background-color:  #333 ;
+    width: 100%;
+    position: fixed;
+  
 }
 
 .topnav a{
     cursor:pointer;
-  
+    border-left: 1px solid black;
+   
 }
-.topnav a:hover{
+
+
+.topnav p:hover{
     background-color: rgb(98, 255, 58);
+    color: black;
 }
 .topnav p{
     font-size: 18px;
@@ -25,17 +32,19 @@
 }
 
 .divulgacao{
-    background-color: rgba(238, 238, 238, 0.901);
-    ;
     width: 100%;
-
+    background-image:url('/imagens/Code.jpg') ;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
 }
 
 .divulgacao h1{
-    font-size: 55px;
+    font-size: 60px;
     padding: 90px 170px 5px 140px;
-    
-    
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px rgb(16, 16, 16);
 }
 
 .divulgacao a{
@@ -43,6 +52,7 @@
     cursor:pointer;
     border-radius: 15px;
     margin-bottom: 75px;
+
 }
 
 .divulgacao p{
@@ -68,33 +78,35 @@
     color: white;
     border-radius: 15px;
 }
-
+.foto-perfil{
+    display: flex;
+}
 
 .foto-perfil img{
-    width: 33%;
+    max-width: 300px;
+    margin-left: 1000px;
     border-radius: 50%;
-    margin-left: 53%;
-    margin-top: 29px;
-    border: 3px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 0;
+    margin-top: -250px;
 }
 
 .sobre-mim{
-    display: flex;
     width: 100%;
-    background-color: rgb(0, 204, 255);
-    
+    background-color:  #ffa200 ;
+    height: 350px;
 }
 
-.sobre-mim h1{
-    position: relative;
-    left: 20%;
-    width: 35%;
-    margin-top: 30px;
-}
+.h1solo{
+    padding-top: 60px;
+    padding-left: 220px;
+    padding-right: 50px;
+    color: rgb(0, 0, 0);
+}   
 .sobre-mim p{
-    width: 100%;
-    padding: 80px 0px;
-    margin-left: -90px;
+    width: 700px;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 50px;
     color: rgb(0, 0, 0);
     text-align:justify;
     font-size: 18px;
@@ -107,12 +119,13 @@
     font-size: 20px;
     background-color: rgb(238, 238, 238);
 }
+
 .meus-projetos{
     display: flex;
     justify-content: center;
     width: 100%;
     background-color: rgb(238, 238, 238);
-    height: 500px;
+    
 }   
 
 .meus-projetos h1{
@@ -129,7 +142,7 @@
 }
 
 .box-projetos p{
-    padding: 5px 20px;
+    padding: 15px 20px 15px 20px;
     font-size: 16px;
     text-align: justify;
 }
@@ -137,9 +150,9 @@
 
 .box-projetos{
     width: 300px;
-    height: 400px;
-    background-color: rgb(210, 210, 210);
+    background-color: rgba(161, 161, 161, 0.357);
     margin: 2%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.792);
     border-radius: 20px;
 }
 
@@ -153,18 +166,20 @@
 .h1-conhecimentos{
     text-align: center;
     padding: 20px;
-    color: white;
-    background-color: rgb(43, 124, 255);
+    color: black;
+    background-color: #ffa200;
     
 }
 
 .h1-conhecimentos h1{
     font-size: 40px;
 }
+
+
 .conhecimentos-container{
     display: flex;
     justify-content: center;
-    background-color: rgb(43, 124, 255);
+    background-color:  #ffa200;
     height: 450px;
 }
 
@@ -172,7 +187,9 @@
     margin: 0px 0;
     width: 1100px;
     height: 400px;
-    background-color: rgb(45, 171, 255);
+    background-color: #333;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.604);
     display: flex;
     justify-content: center;
     
@@ -181,11 +198,12 @@
 .icons-conhecimento{
     width: 130px;
     height:130px;
-    background-color: rgba(255, 255, 255, 0.124);
+    background-color: rgba(70, 70, 70, 0.746);
     margin: 1%;
     margin-top: 140px;
     border-radius: 15px;
     cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
 
 }
 
@@ -205,16 +223,22 @@
     padding: 5px 5px;
 }
 
-.hide{
+.formas-contatos{
+    display: flex;
+    width: 100%;
     background-color: #333;
-    text-align: center;
-    width: 200px;
-    display: none;
+    height: 500px;
 }
 
-.hide p{
-    padding: 15px 15px;
-    text-align: justify;
+.formas-de-contato img{
+    max-width: 50px;
+
 }
 
-
+.fale-comigo{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 100px;
+}
