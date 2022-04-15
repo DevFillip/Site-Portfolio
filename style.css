@@ -79,21 +79,21 @@
     border-radius: 15px;
 }
 .foto-perfil{
-    display: flex;
+    float: right;
+    padding-right: 20px;
+    margin-top: -310px;
 }
 
 .foto-perfil img{
     max-width: 300px;
-    margin-left: 1000px;
     border-radius: 50%;
     padding-bottom: 0;
-    margin-top: -250px;
+    
 }
 
 .sobre-mim{
     width: 100%;
     background-color:  #ffa200 ;
-    height: 350px;
 }
 
 .h1solo{
@@ -107,6 +107,7 @@
     padding-top: 20px;
     padding-left: 70px;
     padding-right: 50px;
+    padding-bottom: 50px;
     color: rgb(0, 0, 0);
     text-align:justify;
     font-size: 18px;
@@ -315,4 +316,39 @@ footer p{
     background-color: rgb(19, 19, 19);
     text-align: center;
 
+}
+
+@media screen and (max-width:1024px) {
+    
+    .sobre-mim{
+        width: 100%;
+        text-align: center;
+    }
+
+    .h1solo{
+        width: 100%;
+        padding: 0px;
+        padding-top: 50px;
+        
+    }
+
+    .sobre-mim p{
+        width: 97%;
+        padding: 0 auto;
+
+    }
+
+    .foto-perfil{
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        padding-bottom: 40px;
+        background-color: orange;
+        width: 100%;
+        justify-content: center;
+    }
+    .foto-perfil img{
+        margin-left: 30px;
+        width: 100%;
+    }
 }
