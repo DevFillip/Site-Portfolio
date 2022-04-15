@@ -226,19 +226,93 @@
 .formas-contatos{
     display: flex;
     width: 100%;
-    background-color: #333;
-    height: 500px;
+    background-color: rgb(223, 223, 223);
+
 }
 
 .formas-de-contato img{
     max-width: 50px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.formas-de-contato a:nth-of-type(1) {
+    max-width: 50px;
+    cursor: pointer;
+    margin-left: 290px;
+}
+
+.formas-de-contato h1{
+    padding-left: 150px;
+    padding-top: 170px;
+    width: 700px;
+    font-size: 45px;
+}   
+
+.fale-comigo{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.679);
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.fale-comigo h3{
+    padding-top: 50px;
 
 }
 
-.fale-comigo{
-    background-color: black;
-    height: 300px;
-    width: 300px;
-    margin-left: 600px;
-    margin-top: 100px;
+.fale-comigo input[type="email"]{
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #ccc;
+    outline: 0;
+    font-size: 15px;
+
+}
+
+.fale-comigo textarea{
+    margin-top: 5px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 100px;
+    outline: 0;
+    width: 210px;
+    resize: none;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.fale-comigo input[type="submit"]{
+    margin-top: 12px;
+    padding: 5px 7px;
+    border-radius: 10px;
+    border: none;
+    outline: 0;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.fale-comigo input[type="submit"]:hover{
+    background-color: red;
+    color: white;
+}
+
+footer p{
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    background-color: rgb(19, 19, 19);
+    text-align: center;
+
 }
