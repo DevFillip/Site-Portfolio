@@ -128,22 +128,14 @@
     text-align: center;
     padding: 20px 0px 10px;
     font-size: 20px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(255, 255, 255);
 }
 
 .meus-projetos{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: rgb(238, 238, 238);
+
+   background-color: rgb(255, 255, 255);
     
 }   
-
-.meus-projetos h1{
-    text-align: center;
-    padding: 30px;
-    font-size: 40px;
-}
 
 .box-projetos h3{
     padding: 3px 3px;
@@ -160,19 +152,18 @@
 
 
 .box-projetos{
-    width: 22.5%;
-    justify-content: center;
+    width: 29%;
     background-color: rgba(161, 161, 161, 0.357);
     margin: 2%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.792);
     border-radius: 20px;
+    float: left;
 }
 
 .box-projetos img{
     border-radius: 20px;
     padding: 15px 15px;
     width: 100%;
-
 }
 
 .h1-conhecimentos{
@@ -180,11 +171,13 @@
     padding: 20px;
     color: black;
     background-color: #ffa200;
-    
+    clear: both;
 }
 
 .h1-conhecimentos h1{
     font-size: 40px;
+    clear: both;
+
 }
 
 
@@ -363,9 +356,7 @@ footer p{
         width: 100%;
     }
 
-    .box-projetos{
-        width: 200%;
-    }
+
     
 
 }
@@ -388,6 +379,11 @@ footer p{
     .divulgacao p{
         font-size: 13px;
         padding: 6px 6px;
+        
+    }
+
+    .box-projetos{
+        width: 96%;
         
     }
 }
