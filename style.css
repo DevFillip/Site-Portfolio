@@ -10,6 +10,7 @@
     background-color:  #333 ;
     width: 100%;
     position: fixed;
+    justify-content: left;
   
 }
 
@@ -24,20 +25,28 @@
     background-color: rgb(98, 255, 58);
     color: black;
 }
+
 .topnav p{
     font-size: 18px;
-    padding: 12px 7px;
+    padding: 12px 20px;
     color: white;
+    
     font-weight: 400;
+}
+
+.topnav img{
+    display: none;
 }
 
 .divulgacao{
     width: 100%;
     background-image:url('/imagens/Code.jpg') ;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 50px;
+    text-align: center;
+  
 }
 
 .divulgacao h1{
@@ -52,7 +61,7 @@
     cursor:pointer;
     border-radius: 15px;
     margin-bottom: 75px;
-
+    
 }
 
 .divulgacao p{
@@ -73,11 +82,12 @@
 }
 
 .manipular-melhor{
-    margin-left: 214px;
+    margin-left: -30px;
     background-color: rgb(33, 33, 33);
     color: white;
     border-radius: 15px;
 }
+
 .foto-perfil{
     float: right;
     padding-right: 20px;
@@ -150,7 +160,8 @@
 
 
 .box-projetos{
-    width: 300px;
+    width: 22.5%;
+    justify-content: center;
     background-color: rgba(161, 161, 161, 0.357);
     margin: 2%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.792);
@@ -158,10 +169,10 @@
 }
 
 .box-projetos img{
-    max-width: 300px;
-    text-align: center;
     border-radius: 20px;
     padding: 15px 15px;
+    width: 100%;
+
 }
 
 .h1-conhecimentos{
@@ -350,5 +361,55 @@ footer p{
     .foto-perfil img{
         margin-left: 30px;
         width: 100%;
+    }
+
+    .box-projetos{
+        width: 200%;
+    }
+    
+
+}
+
+@media screen and (max-width:768px) {
+    .topnav p{
+        font-size: 18px;
+        padding: 12px 10px;
+        color: white;
+        font-weight: 400;
+    }
+
+    .divulgacao h1{
+        font-size: 41px;
+        width: 100%;
+
+        
+    }
+    
+    .divulgacao p{
+        font-size: 13px;
+        padding: 6px 6px;
+        
+    }
+}
+
+@media screen and (max-width:604px){
+    .topnav{
+       
+        justify-content: right;
+    }
+
+    .topnav a{
+        border: none; 
+    }
+    .topnav img{
+        display: flex;
+        padding: 10px 10px;
+        max-width: 50px;
+        
+    }
+    
+    .topnav p{
+        font-size: 0;
+        
     }
 }
